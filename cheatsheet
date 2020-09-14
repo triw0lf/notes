@@ -1,0 +1,20 @@
+09-08-2020
+git push -f origin master - force a git push if you don't care what happens
+
+09-09-2020
+alias python=python3 - set python to python v3 by default
+
+09-10-2020
+chrome://flags - #native-file-system-api=disable - don't allow chrome (or other webpages) to read native file system 
+
+09-11-2020
+brew install cask / brew cask install google-chrome - install mac os GUI from cli, install google chrome from cli
+
+09-12-2020
+export EDITOR=nano / export VISUAL="$EDITOR" - add to my ~/.zsh_profile, then source that profile for the best editor
+
+09-13-2020
+ls -a - shows all files or directories in cwd, including those that start with a .
+
+09-14-2020
+ echo "this is a bad command" - a space in front of a command in shell keeps it from committing to history
