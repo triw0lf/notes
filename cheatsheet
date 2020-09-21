@@ -18,3 +18,25 @@ ls -a - shows all files or directories in cwd, including those that start with a
 
 09-14-2020
  echo "this is a bad command" - a space in front of a command in shell keeps it from committing to history
+
+09-15-2020
+git checkout --orphan TEMP_BRANCH - create a temporary branch in git
+
+09-16-2020
+EVID 4656, Object Name: \REGISTRY\MACHINE\SECURITY\Cache - someone might be running LSASecrets and trying to dump some hashes
+
+09-17-2020
+GPO: Computer Configuration\Policies\Administrative Templates\System\Audit Process Creation: Include command line in process creation
+events: Enabled- Include command line in process creation events - 4688 - more verbosity = more detections
+
+09-18-2020
+6ece5ece4192683d2d84e25b0ba7e04f9cb7eb7c - Cobalt Strike SHA1
+
+09-19-2020
+146473198 (0x8bb00ee) - Cobalt Strike Serial Number
+
+09-20-2020
+Shodan: title:"404 Not Found" +"Content-Length: 233" +"Cache-Control: no-cache, no-store, must-revalidate" -"post-check=" -"pre-check=" -"private" +"Pragma: no-cache" +"Expires: 0" +"Server:" -"X-" -"Set-Cookie:" -"Connection:" -"Etag" -"Last-Modified" -"Accept-Ranges:" -"Access-Control" - Look for Empire listeners
+
+09-21-2020
+https://sslbl.abuse.ch/ssl-certificates/ - bad SSL certs (can be used for hunting)
